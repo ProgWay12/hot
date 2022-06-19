@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/styles.css">
+</head>
+<body>
+    <div class="about">
+        <div class="menu">
+            <div class="menu__logo">
+                <img class="menu__logo-img" src="./src/img/logo.png" alt="">
+            </div>
+            <nav class="menu__points">
+                <a href="" class="menu__link">Покупка</a>
+                <a href="" class="menu__link">Аренда</a>
+                <a href="" class="menu__link">Горячие предложения</a>
+                <a href="" class="menu__link">Путиводитель</a>
+                <a href="" class="menu__link">Контакты</a>
+                <a href="" class="menu__link">Инвестирование</a>
+            </nav>
+            <div class="menu__contacts">
+                <div class="menu__selector">
+                    <p class="menu__selector-text">
+                        Ru
+                    </p>
+                    <div class="menu__selector-dropdown">
+                        <div class="menu__selector-points">
+                            <div class="menu__selector-point text">
+                                <p class="menu__selector-point-title">
+                                    Ru
+                                </p>
+                            </div>
+                            <hr class="menu__selector-separator">
+                            <div class="menu__selector-point text">
+                                <p class="menu__selector-point-title">
+                                    En
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__selector">
+                    <p class="menu__selector-text">
+                        $
+                    </p>
+                    <div class="menu__selector-dropdown" style="display: none;">
+                        <ul class="menu__selector-points">
+                            <li class="menu__selector-point">
+                                <p class="menu__selector-point-title">
+                                    $
+                                </p>
+                            </li>
+                            <li class="menu__selector-point">
+                                <p class="menu__selector-point-title">
+                                    €
+                                </p>
+                            </li>
+                            <li class="menu__selector-point">
+                                <p class="menu__selector-point-title">
+                                    RUB
+                                </p>
+                            </li>
+                            <li class="menu__selector-point">
+                                <p class="menu__selector-point-title">
+                                    THB
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu__points">
+                    <a href="" class="menu__link">
+                        <img src="./src/img/facebook.png" alt="" class="menu__link-img">
+                    </a>
+                    <a href="" class="menu__link">
+                        <img src="./src/img/vk.png" alt="" class="menu__link-img">
+                    </a>
+                    <a href="" class="menu__link">
+                        <img src="./src/img/inst.png" alt="" class="menu__link-img">
+                    </a>
+                </div>
+                <div class="menu__phone-selector">
+                    <p class="menu__selector-text menu__phone-selector-text">
+                        +7 999 220 20 20
+                    </p>
+                    <div class="menu__selector-dropdown" style="display: none;">
+                        <ul class="menu__selector-points menu__phone-selector-points">
+                            <li class="menu__selector-point">
+                                <p class="menu__selector-point-title">
+                                    +66 87 747-1425
+                                </p>
+                                <div class="menu__selector-points-subimages">
+                                    <img src="" alt="" class="menu__selector-points-subimage">
+                                    <img src="" alt="" class="menu__selector-points-subimage">
+                                    <img src="" alt="" class="menu__selector-points-subimage">
+                                    <img src="" alt="" class="menu__selector-points-subimage">
+                                </div>
+                            </li>
+                            <li class="menu__selector-point">
+                                <p class="menu__selector-point-title">
+                                    +66 87 747-1425
+                                </p>
+                                <div class="menu__selector-points-subimages">
+                                    <img src="" alt="" class="menu__selector-points-subimage">
+                                    <img src="" alt="" class="menu__selector-points-subimage">
+                                    <img src="" alt="" class="menu__selector-points-subimage">
+                                    <img src="" alt="" class="menu__selector-points-subimage">
+                                </div>
+                            </li>
+                            <li class="menu__selector-point">
+                                <p class="menu__selector-point-title">
+                                    info@hot-real-estate.ru
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="about__header">
+                <h1 class="about__title">
+                    Недвижимость в Таиланде для вас 
+                </h1>
+                <p class="about__subtitle text">
+                    Лучшие предложения по аренде и продаже вилл, аппартаментов и кондоминиумов в Паттайе, Пхукете и Самуи.
+                </p>
+            </div>
+            <div class="about__search-form">
+                <div class="about__search-form-menu">
+                    <div class="about__search-form-menu-point about__search-form-menu-point_selected">
+                        <p class="about__search-form-menu-point-title text about__search-form-menu-point-title_selected">
+                            По виду
+                        </p>
+                    </div>
+                    <div class="about__search-form-menu-point">
+                        <p class="about__search-form-menu-point-title text">
+                            По имени или ID
+                        </p>
+                    </div>
+                    <div class="about__search-form-menu-point">
+                        <p class="about__search-form-menu-point-title text">
+                            По расположению
+                        </p>
+                    </div>
+                </div>
+                <form class="about__form about__form_by-type">
+                    <div class="about__form-selector">
+                        <input type="text" name="" id="" class="about__form-real-selector">
+                        <p class="about__form-selector-header text">
+                            Арендовать
+                        </p>
+                        <ul class="about__form-selector-dropdown">
+                            <li class="about__form-selector-dropdown-point text">
+                                <p class="about__form-selector-dropdown-point-text">Купить</p>
+                            </li>
+                            <li class="about__form-selector-dropdown-point text">
+                                <p class="about__form-selector-dropdown-point-text">Арендовать</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about__form-selector">
+                        <input type="text" name="" id="" class="about__form-real-selector">
+                        <p class="about__form-selector-header text">
+                            Тип объекта
+                        </p>
+                        <ul class="about__form-selector-dropdown">
+                            <li class="about__form-selector-dropdown-point text">
+                                <p class="about__form-selector-dropdown-point-text">Купить</p>
+                            </li>
+                            <li class="about__form-selector-dropdown-point text">
+                                <p class="about__form-selector-dropdown-point-text">Арендовать</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about__form-selector about__form-price-selector">
+                        <input type="text" name="" id="" class="about__form-real-selector">
+                        <p class="about__form-price-selector-header text">
+                            40 тыс. — 200 тыс. $
+                        </p>
+                        <div class="about__form-price-selector-dropdown">
+                            
+                        </div>
+                    </div>
+                    <input type="submit" value="Подобрать объекты" class="button about__form-submit">
+                </form>
+                <div class="about__full-search">
+                    <p class="about__full-searc-title text">
+                        Расширенный поиск
+                    </p>
+                    <img src="./src/img/search.png" class="about__full-search-img"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hot-orders container">
+        <div class="hot-orders__header">
+            <div class="hot-orders__wrapper">
+                <h1 class="text hot-orders__title">Горячие предложения</h1>
+                <div class="hot-orders__menu">
+                    <p class="hot-orders__menu-point hot-orders__menu-point_selected text">
+                        Аренда
+                    </p>
+                    <p class="hot-orders__menu-point text">
+                        Продажа
+                    </p>
+                    <p class="hot-orders__menu-point text">
+                        Инвестиции
+                    </p>
+                </div>
+            </div>
+            <p class="hot-orders__subtitle text">
+                Мы отбираем лучшие предложения на рынке недвижимости и формируем индивидуальные выгодные предложения
+            </p>
+        </div>
+        <div class="hot-orders__list">
+            <div class="hot-orders__each-order">
+                <div class="hot-orders__each-order-header">
+                    <div class="hot-orders__tags">
+                        <p class="hot-orders__each-tag text">
+                            Продажа
+                        </p>
+                        <p class="hot-orders__each-tag text">
+                            Аренда
+                        </p>
+                    </div>
+                    <p class="hot-orders__each-tag hot-orders__each-tag_sale text">
+                        Скидка 12%
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info">
+                    <p class="text hot-orders__each-order-desc">
+                        3 комн. аппартаменты
+                    </p>
+                    <p class="text hot-orders__each-order-desc hot-orders__each-order-desc_price">
+                        3 000 000 $
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info hot-orders__each-order-info_location">
+                    <p class="hot-orders__each-order-location  text">
+                        <img src="" alt="">
+                        Мабпрахан, Таиланд
+                    </p>
+                    <p class="hot-orders__each-order-location text">
+                        <img src="" alt="">
+                        124(96) м<sup>2</sup>
+                    </p>
+                </div>
+            </div>
+            <div class="hot-orders__each-order">
+                <div class="hot-orders__each-order-header">
+                    <div class="hot-orders__tags">
+                        <p class="hot-orders__each-tag text">
+                            Продажа
+                        </p>
+                        <p class="hot-orders__each-tag text">
+                            Аренда
+                        </p>
+                    </div>
+                    <p class="hot-orders__each-tag hot-orders__each-tag_sale text">
+                        Скидка 12%
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info">
+                    <p class="text hot-orders__each-order-desc">
+                        3 комн. аппартаменты
+                    </p>
+                    <p class="text hot-orders__each-order-desc hot-orders__each-order-desc_price">
+                        3 000 000 $
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info hot-orders__each-order-info_location">
+                    <p class="hot-orders__each-order-location  text">
+                        <img src="" alt="">
+                        Мабпрахан, Таиланд
+                    </p>
+                    <p class="hot-orders__each-order-location text">
+                        <img src="" alt="">
+                        124(96) м<sup>2</sup>
+                    </p>
+                </div>
+            </div>
+            <div class="hot-orders__each-order">
+                <div class="hot-orders__each-order-header">
+                    <div class="hot-orders__tags">
+                        <p class="hot-orders__each-tag text">
+                            Продажа
+                        </p>
+                        <p class="hot-orders__each-tag text">
+                            Аренда
+                        </p>
+                    </div>
+                    <p class="hot-orders__each-tag hot-orders__each-tag_sale text">
+                        Скидка 12%
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info">
+                    <p class="text hot-orders__each-order-desc">
+                        3 комн. аппартаменты
+                    </p>
+                    <p class="text hot-orders__each-order-desc">
+                        3 000 000 $
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info hot-orders__each-order-info_location">
+                    <p class="hot-orders__each-order-location text">
+                        <img src="" alt="">
+                        Мабпрахан, Таиланд
+                    </p>
+                    <p class="hot-orders__each-order-location text">
+                        <img src="" alt="">
+                        124(96) м<sup>2</sup>
+                    </p>
+                </div>
+            </div>
+            <div class="hot-orders__each-order">
+                <div class="hot-orders__each-order-header">
+                    <div class="hot-orders__tags">
+                        <p class="hot-orders__each-tag text">
+                            Продажа
+                        </p>
+                        <p class="hot-orders__each-tag text">
+                            Аренда
+                        </p>
+                    </div>
+                    <p class="hot-orders__each-tag hot-orders__each-tag_sale text">
+                        Скидка 12%
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info">
+                    <p class="text hot-orders__each-order-desc">
+                        3 комн. аппартаменты
+                    </p>
+                    <p class="text hot-orders__each-order-desc">
+                        3 000 000 $
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info hot-orders__each-order-info_location">
+                    <p class="hot-orders__each-order-location text">
+                        <img src="" alt="">
+                        Мабпрахан, Таиланд
+                    </p>
+                    <p class="hot-orders__each-order-location text">
+                        <img src="" alt="">
+                        124(96) м<sup>2</sup>
+                    </p>
+                </div>
+            </div>
+            <div class="hot-orders__each-order">
+                <div class="hot-orders__each-order-header">
+                    <div class="hot-orders__tags">
+                        <p class="hot-orders__each-tag text">
+                            Продажа
+                        </p>
+                        <p class="hot-orders__each-tag text">
+                            Аренда
+                        </p>
+                    </div>
+                    <p class="hot-orders__each-tag hot-orders__each-tag_sale text">
+                        Скидка 12%
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info">
+                    <p class="text hot-orders__each-order-desc">
+                        3 комн. аппартаменты
+                    </p>
+                    <p class="text hot-orders__each-order-desc">
+                        3 000 000 $
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info hot-orders__each-order-info_location">
+                    <p class="hot-orders__each-order-location text">
+                        <img src="" alt="">
+                        Мабпрахан, Таиланд
+                    </p>
+                    <p class="hot-orders__each-order-location text">
+                        <img src="" alt="">
+                        124(96) м<sup>2</sup>
+                    </p>
+                </div>
+            </div>
+            <div class="hot-orders__each-order">
+                <div class="hot-orders__each-order-header">
+                    <div class="hot-orders__tags">
+                        <p class="hot-orders__each-tag text">
+                            Продажа
+                        </p>
+                        <p class="hot-orders__each-tag text">
+                            Аренда
+                        </p>
+                    </div>
+                    <p class="hot-orders__each-tag hot-orders__each-tag_sale text">
+                        Скидка 12%
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info">
+                    <p class="text hot-orders__each-order-desc">
+                        3 комн. аппартаменты
+                    </p>
+                    <p class="text hot-orders__each-order-desc">
+                        3 000 000 $
+                    </p>
+                </div>
+                <div class="hot-orders__each-order-info hot-orders__each-order-info_location">
+                    <p class="hot-orders__each-order-location text">
+                        <img src="" alt="">
+                        Мабпрахан, Таиланд
+                    </p>
+                    <p class="hot-orders__each-order-location text">
+                        <img src="" alt="">
+                        124(96) м<sup>2</sup>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="" class="hot-orders__btn button">Посмотреть все</a>
+    </div>
+    <div class="selections container">
+        <div class="selections__header">
+            <h1 class="selections__title text">
+                Уникальные подборки акции и обзоры
+            </h1>
+            <a href="" class="button selections__button">Посмотреть все</a>
+        </div>
+        <div class="selections__list">
+            <div class="selections__each selections__each_linear-blue">
+                <p class="selections__card-subtitle text">Подборка объектов</p>
+                <p class="selections__card-title text">Топ-10 вилл в крутых районах Тайланда</p>
+            </div>
+            <div class="selections__each selections__each_bg-img">
+                <p class="selections__card-subtitle text">Подборка объектов</p>
+                <p class="selections__card-title text">Уникальные квартиры в Jomtien House Tripple Squad Apportunity</p>
+            </div>
+            <div class="selections__each selections__each_linear-purple">
+                <p class="selections__card-subtitle text">Подборка объектов</p>
+                <p class="selections__card-title text">Виллы от застройщика</p>
+            </div>
+            <div class="selections__each selections__each_bg-img-2">
+                <p class="selections__card-subtitle text">Подборка объектов</p>
+                <p class="selections__card-title text">Уникальные квартиры в Jomtien House Tripple Squad Apportunity</p>
+            </div>
+        </div>
+        <div class="selections__under-block">
+            <div class="selections__form-wrapper">
+                <p class="selections__sec-title text">
+                    Оставьте почту и получайте новые предложения первым. Без спама.
+                </p>
+                <div class="selections__subtitle-wrapper">
+                    <form action="" class="selections__form">
+                        <input type="email"  name="" id="" class="selections__email text" placeholder="Ваша почта">
+                        <input type="submit" value="Отправить" class="button selections__btn">
+                    </form>
+                    <p class="text selections__subtitle">Нажимая кнопку «отправить», вы принимаете пользовательское соглашение на обработку персональных данных</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="pluses">
+        <div class="container">
+            <h1 class="pluses__title text">
+                Преимущества Таиланда
+            </h1>
+            <div class="pluses__list">
+                <div class="pluses__list-point">
+                    <img src="./src/img/palm.png" class="pluses__point-img"></img>
+                    <p class="pluses__point-title text">Теплый климат</p>
+                    <p class="text pluses__point-subtitle">Постоянное лето с температурой не ниже 20°С, которое невозможно найти в Испании или финансово более приемлемой Болгарии.</p>
+                </div>
+                <div class="pluses__list-point">
+                    <img src="./src/img/palm.png" class="pluses__point-img"></img>
+                    <p class="pluses__point-title text">Теплый климат</p>
+                    <p class="text pluses__point-subtitle">Необходимо меньше финансов. Продукты питания стоят недорого. Фрукты и морепродукты можно употреблять в течение всего года. </p>
+                </div>
+                <div class="pluses__list-point">
+                    <img src="./src/img/palm.png" class="pluses__point-img"></img>
+                    <p class="pluses__point-title text">Теплый климат</p>
+                    <p class="text pluses__point-subtitle">Тайская кухня сочетает в себе экзотические и непривычные смешения разных вкусов.</p>
+                </div>
+                <div class="pluses__list-point">
+                    <img src="./src/img/palm.png" class="pluses__point-img"></img>
+                    <p class="pluses__point-title text">Теплый климат</p>
+                    <p class="text pluses__point-subtitle">Парки и сады, уникальная архитектура, античные скульптуры, дворцы и многое другое.</p>
+                </div>
+                <div class="pluses__list-point">
+                    <img src="./src/img/palm.png" class="pluses__point-img"></img>
+                    <p class="pluses__point-title text">Теплый климат</p>
+                    <p class="text pluses__point-subtitle">Доброе и дружественно относящееся ко всем местное население, готовое одаривать всех улыбками. О лучших соседях и мечтать не стоит.</p>
+                </div>
+                <div class="pluses__list-point">
+                    <img src="./src/img/palm.png" class="pluses__point-img"></img>
+                    <p class="pluses__point-title text">Теплый климат</p>
+                    <p class="text pluses__point-subtitle">Таиланд находится в такой природно-климатической зоне, где свежайшие фрукты доступны в круглогодичном режиме.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="asks container">
+        <div class="asks__wrapper">
+            <h1 class="asks__title text">
+                Частые вопросы
+            </h1>
+            <div class="asks__list">
+                <div class="asks__list-point">
+                    <div class="asks__point-header">
+                        <p class="asks__point-title text">Что такое дорожные (тревел) чеки?</p>
+                        <div class="asks__point-btn">
+                            <div class="asks__point-btn-vertical"></div>
+                            <div class="asks__point-btn-horizontal"></div>
+                        </div>
+                    </div>
+                    <div class="asks__point-text-wrapper">
+                        <p class="asks__point-text text">
+                            Это удобное средство для перевозки денежных средств, как для простых путешественников, так и для людей, собирающихся приобретать недвижимость в Таиланде. Подробнее о преимуществе дорожных чеков в Таиланде, как средства ввоза валюты читайте в <a href="" class="asks__point-link text">нашей статье</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="asks__list-point">
+                    <div class="asks__point-header">
+                        <p class="asks__point-title text">Можно ли оплатить покупку наличной валютой?</p>
+                        <div class="asks__point-btn">
+                            <div class="asks__point-btn-vertical"></div>
+                            <div class="asks__point-btn-horizontal"></div>
+                        </div>
+                    </div>
+                    <div class="asks__point-text-wrapper">
+                        <p class="asks__point-text text">
+                            Это удобное средство для перевозки денежных средств, как для простых путешественников, так и для людей, собирающихся приобретать недвижимость в Таиланде. Подробнее о преимуществе дорожных чеков в Таиланде, как средства ввоза валюты читайте в <a href="" class="asks__point-link text">нашей статье</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="asks__list-point">
+                    <div class="asks__point-header">
+                        <p class="asks__point-title text">Процедура покупки кондоминиума на вторичном рынке в Тайланде</p>
+                        <div class="asks__point-btn">
+                            <div class="asks__point-btn-vertical"></div>
+                            <div class="asks__point-btn-horizontal"></div>
+                        </div>
+                    </div>
+                    <div class="asks__point-text-wrapper">
+                        <p class="asks__point-text text">
+                            Это удобное средство для перевозки денежных средств, как для простых путешественников, так и для людей, собирающихся приобретать недвижимость в Таиланде. Подробнее о преимуществе дорожных чеков в Таиланде, как средства ввоза валюты читайте в <a href="" class="asks__point-link text">нашей статье</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="asks__list-point">
+                    <div class="asks__point-header">
+                        <p class="asks__point-title text">Законно ли приобретать дома или танхаусы в Таиланде?</p>
+                        <div class="asks__point-btn">
+                            <div class="asks__point-btn-vertical"></div>
+                            <div class="asks__point-btn-horizontal"></div>
+                        </div>
+                    </div>
+                    <div class="asks__point-text-wrapper">
+                        <p class="asks__point-text text">
+                            Это удобное средство для перевозки денежных средств, как для простых путешественников, так и для людей, собирающихся приобретать недвижимость в Таиланде. Подробнее о преимуществе дорожных чеков в Таиланде, как средства ввоза валюты читайте в <a href="" class="asks__point-link text">нашей статье</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="asks__list-point">
+                    <div class="asks__point-header">
+                        <p class="asks__point-title text">Покупая через агента Вы заведомо переплачиваете, поэтому лучше покупать недвижимость самому?</p>
+                        <div class="asks__point-btn">
+                            <div class="asks__point-btn-vertical"></div>
+                            <div class="asks__point-btn-horizontal"></div>
+                        </div>
+                    </div>
+                    <div class="asks__point-text-wrapper">
+                        <p class="asks__point-text text">
+                            Это удобное средство для перевозки денежных средств, как для простых путешественников, так и для людей, собирающихся приобретать недвижимость в Таиланде. Подробнее о преимуществе дорожных чеков в Таиланде, как средства ввоза валюты читайте в <a href="" class="asks__point-link text">нашей статье</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="asks__list-point">
+                    <div class="asks__point-header">
+                        <p class="asks__point-title text">Что взять с собой в тайланд, если мы хотим поехать всей семьей в путешествие?</p>
+                        <div class="asks__point-btn">
+                            <div class="asks__point-btn-vertical"></div>
+                            <div class="asks__point-btn-horizontal"></div>
+                        </div>
+                    </div>
+                    <div class="asks__point-text-wrapper">
+                        <p class="asks__point-text text">
+                            Это удобное средство для перевозки денежных средств, как для простых путешественников, так и для людей, собирающихся приобретать недвижимость в Таиланде. Подробнее о преимуществе дорожных чеков в Таиланде, как средства ввоза валюты читайте в <a href="" class="asks__point-link text">нашей статье</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="asks__list-point">
+                    <div class="asks__point-header">
+                        <p class="asks__point-title text">Что такое кондоминиумы и чем это отличается от стандартных новостроек?</p>
+                        <div class="asks__point-btn">
+                            <div class="asks__point-btn-vertical"></div>
+                            <div class="asks__point-btn-horizontal"></div>
+                        </div>
+                    </div>
+                    <div class="asks__point-text-wrapper">
+                        <p class="asks__point-text text">
+                            Это удобное средство для перевозки денежных средств, как для простых путешественников, так и для людей, собирающихся приобретать недвижимость в Таиланде. Подробнее о преимуществе дорожных чеков в Таиланде, как средства ввоза валюты читайте в <a href="" class="asks__point-link text">нашей статье</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="asks__form-wrapper">
+            <h2 class="asks__form-title text">Не нашли нужный вопрос? Ответим лично!</h2>
+            <p class="asks__form-subtitle text">Наши специалисты ответят вам в течении пары дней</p>
+            <form action="" class="asks__form">
+                <input type="tel" name="" id="" class="asks__form-input text" placeholder="Ваш телефон"> <br>
+                <textarea name="" id="" cols="30" rows="10" class="text asks__form-textarea" placeholder="Ваш вопрос"></textarea> <br>
+                <div class="asks__form-submit-wrapper">
+                    <input type="submit" value="Отправить" class="button asks__form-submit">
+                    <p class="text asks__form-submit-subtitle">Нажимая кнопку «отправить», вы принимаете пользовательское соглашение на обработку персональных данных</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="consult-form container">
+        <div class="consult-form__wrapper">
+            <div class="consult-form__main">
+                <h1 class="consult-form__title text">Хотите в отпуск, но трудно выбрать недвижимость по вкусу?</h1>
+                <p class="consult-form__subtitle text">Мы бесплатно консультируем на нескольких языках и готовы оперативно ответить на любые вопросы, просто попросите перезвонить</p>
+                <form class="consult-form__body">
+                    <input type="tel" name="" id="" placeholder="Ваш телефон" class="consult-form__input text">
+                    <input type="submit" value="Отправить" class="button consult-form__submit">
+                </form>
+                <p class="consult-form__under-form text">Нажимая кнопку «отправить», вы принимаете пользовательское соглашение на обработку персональных данных</p>
+            </div>
+        </div>
+        <img src="./src/img/form_women.png" alt="" class="consult-form__women">
+    </div>
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>
